@@ -14,12 +14,13 @@ for perc_completed in range(100):
     progress_bar.progress(perc_completed+1)
 
 with col2:     
-    st.image("meme.jpeg")
+    st.image("profile-pic.npg")
+    st.caption("Nmae | John Ndelembi")
     
 
 col1.success("Photo was uploaded succesfull")
 
-st.markdown("hello, welcome to this fundraiser, this guy is looking for extra money for his tuition fee so he can sit for his final exams ")
+st.subheader("A young man's future on hold due to exam fees. Help him reach his potential by contributing towards his tuition. Every bit counts, let's unlock his dreams together! Donate now. ")
 
 with st.expander("click to read more"):
      st.markdown("Use the control number below to make your contribution, thank you")

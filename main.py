@@ -14,7 +14,7 @@ for perc_completed in range(100):
     progress_bar.progress(perc_completed+1)
 
 with col2:     
-    st.image("profile-pic.npg")
+    st.image("profile-pic.png")
     st.caption("Nmae | John Ndelembi")
     
 

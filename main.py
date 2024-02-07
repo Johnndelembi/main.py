@@ -1,7 +1,7 @@
 import streamlit as st
 import time
 
-st.title("""Streamlit web app created by **John**""")
+st.title("""OPERESHEN OKOA ELIMU - FUNDRAISER """)
 
 col1, col2 = st.columns([3,3])
 
@@ -12,6 +12,10 @@ progress_bar = col1.progress(0)
 for perc_completed in range(100):
     time.sleep(0.025)
     progress_bar.progress(perc_completed+1)
+
+with col2:     
+    st.image("meme.jpeg")
+    
 
 col1.success("Photo was uploaded succesfull")
 

@@ -1,7 +1,8 @@
 import streamlit as st
 import time
 
-st.title("""OPERESHEN OKOA ELIMU - FUNDRAISER """)
+st.set_page_config(page_title="TUMCHANGIE KIJANA", page_icon=":wave:")
+st.title("""TUMCHANGIE KIJANA - FUNDRAISER """)
 
 col1, col2 = st.columns([3,3])
 

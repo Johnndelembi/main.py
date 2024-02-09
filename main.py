@@ -9,7 +9,7 @@ col1, col2 = st.columns([3,3])
 st.subheader("A young man's future on hold due to exam fees. Help him reach his potential by contributing towards his tuition. Every bit counts, let's unlock his dreams together! Donate now. ")
 
 with col1:
-     st.expander("click to read more"):
+     st.expander("click to read more")
      st.markdown("Use the control number below to make your contribution, tumia control number kutoka kwenye picha chini kumchangia kijana thank you")
      st.image("124.PNG")
 with col2:

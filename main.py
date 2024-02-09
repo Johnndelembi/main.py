@@ -11,6 +11,7 @@ with col1.expander("click to read more"):
      st.image("124.PNG")
 with col2.expander("Picha"):
      st.image("john.jpeg")
+     st.caption("John Ndelembi with registration number 2023-04-10292")
     
 
 st.file_uploader("Upload receipt")

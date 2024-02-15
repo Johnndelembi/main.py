@@ -9,7 +9,7 @@ col1, col2 = st.columns([3,3])
 with col1.expander("click to read more"):
      st.markdown("Use the control number below to make your contribution, tumia control number kutoka kwenye picha chini kumchangia kijana thank you")
      st.image("udsm.png")
-     st.markdown("** CONTROL NUMBER: 991270680974**")
+     st.markdown("**CONTROL NUMBER: 991270680974**")
 with col2.expander("Picha"):
      st.image("john.jpeg")
      st.caption("John Ndelembi with registration number 2023-04-10292")
